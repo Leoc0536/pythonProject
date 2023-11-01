@@ -1,8 +1,10 @@
-def question_four(x, y):
+import random
+
+def question_four():
     n = 23
     g = 6
-    # x = random.randint(1, 101)
-    # y = random.randint(1, 101)
+    x = random.randint(1, 101)
+    y = random.randint(1, 101)
 
     print(f"{x = } \n{y = }")
     value = g**(x*y)%n
@@ -10,4 +12,4 @@ def question_four(x, y):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    question_four(2, 3)
+    question_four()
