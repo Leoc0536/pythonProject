@@ -7,7 +7,7 @@ def question_four():
     y = random.randint(1, 101)
 
     print(f"{x = } \n{y = }")
-    value = g**(x*y)%n
+    value = pow(g, (x*y)) % n
     print(f"{value = }")
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
