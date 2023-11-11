@@ -1,4 +1,7 @@
 # Exercise on Cryptography
+###Run Before:
+| python3 -m pip install --upgrade pip|
+| python3 -m pip install --upgrade Pillow|
 
 To run program, can simply run
 ```python3 question_{number}.py```
