@@ -1,7 +1,8 @@
 # Exercise on Cryptography
-###Run Before:
-| python3 -m pip install --upgrade pip|
-| python3 -m pip install --upgrade Pillow|
+### Run Before:
+```shell
+pip install -r requirements.txt
+```
 
 To run specific program, replace {file} with desired program name.
 ```shell
